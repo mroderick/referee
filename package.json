@@ -1,6 +1,6 @@
 {
   "name": "referee",
-  "version": "1.2.0",
+  "version": "1.2.0-hack",
   "description": "Assertions for any JavaScript test framework and environment",
   "homepage": "http://docs.busterjs.org/en/latest/modules/referee/",
   "author": "Christian Johansen",
@@ -38,9 +38,10 @@
     "test": "grunt test"
   },
   "dependencies": {
+    "bane": "1.x",
+    "formatio": "^1.2.0",
     "lodash": "3.x",
-    "samsam": "1.x",
-    "bane": "1.x"
+    "samsam": "1.x"
   },
   "devDependencies": {
     "grunt": "0.4.x",
